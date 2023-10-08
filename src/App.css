@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body {
+  margin: 0%;
+  padding: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputContainer input {
+  width: 200px;
+  height: 40px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.сontent {
+  min-height: calc(100vh - 295px);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.btn-openCalendar {
+  margin-left:10px;
+}
+.taskList {
+  width: 100%;
+  display:flex;
+  align-items:center;
+  padding-top: 40px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.task {
+  width: 550px;
+  height:60px;
+  display: flex;
   color: white;
+  margin:10px;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.task_input{
+  margin-right:10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-delete {
+  margin-right: 10px;
+}
+.btn-linkedin {
+  margin-left: 10px;
 }
